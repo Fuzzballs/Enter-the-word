@@ -10,7 +10,7 @@ e.pack()
 root.geometry("750x250")
 #This is what will be printed on screen
 def callback():
-    Label(root, text=e.get(), font=('Georgia 20 bold')).pack()
+    Label(root, text=e.get()).pack()
 #What the button will do
 btn = ttk.Button(root, text="Show the thing", command=callback)
 btn.pack(ipadx=10)
